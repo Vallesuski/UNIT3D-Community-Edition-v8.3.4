@@ -122,7 +122,7 @@
                 >
                     @csrf
                     <span class="text-success text-center">
-                        Para Hacer Tu Donacion Usa La Siguiente Cuenta Paypal:
+                        Para Hacer Tu Donacion Usa La Siguiente Cuenta Paypal o Crypto:
                     </span>
                     <div class="form__group--horizontal">
                         @foreach ($gateways->sortBy('position') as $gateway)
@@ -173,7 +173,7 @@
                                 name="transaction"
                             />
                             <label for="proof" class="form__label form__label--floating">
-                                Ingresa El Número de Transacción de PayPal
+                                Ingresa El Número de Transacción de PayPal o Crypto
                             </label>
                         </p>
                     </div>
